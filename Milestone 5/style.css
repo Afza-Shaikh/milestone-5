@@ -1,0 +1,105 @@
+/* Styling form and resume sections */ 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #fce4ec; /* Light pink background */
+}
+
+form {
+    margin: auto;
+    background-color: #e1bee7; /* Light purple */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 600px;
+    transition: transform 0.3s;
+}
+
+form:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #6a1b9a; /* Dark purple */
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger font size for the title */
+}
+
+fieldset {
+    border: 2px solid #d81b60; /* Bright pink */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8bbd0; /* Very light pink for fieldset */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #c2185b; /* Darker pink */
+    font-size: 1.2em; /* Larger font size for the legend */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333; /* Dark gray for labels */
+    font-size: 1em;
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 10px;
+    width: calc(100% - 2px);
+    border: 1px solid #d81b60; /* Bright pink */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff; /* White for inputs */
+    color: #333; /* Dark text for inputs */
+    font-size: 1em; /* Consistent font size */
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #e1bee7; /* Light purple on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #d81b60; /* Bright pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #d81b60; /* Bright pink */
+    border-radius: 10px;
+    background-color: #f8bbd0; /* Very light pink */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #6a1b9a; /* Dark purple */
+    margin-bottom: 10px; /* Space below the heading */
+}
